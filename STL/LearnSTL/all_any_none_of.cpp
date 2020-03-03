@@ -9,9 +9,11 @@ namespace ALL_ANY_NONE{
 	void test_all()
 	{
 		cout << "----------all_any_none_test----------" << endl;
+
 		test_all_of();
 		test_any_of();
 		test_none_of();
+
 		cout << endl;
 	}
 

@@ -18,12 +18,30 @@
     <ClInclude Include="all_any_none_of.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="for_each.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="count.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mismatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="for_each.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="count.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mismatch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

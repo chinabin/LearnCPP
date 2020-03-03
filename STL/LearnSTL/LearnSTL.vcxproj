@@ -79,10 +79,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="all_any_none_of.h" />
+    <ClInclude Include="count.h" />
+    <ClInclude Include="for_each.h" />
+    <ClInclude Include="mismatch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp" />
+    <ClCompile Include="count.cpp" />
+    <ClCompile Include="for_each.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mismatch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
