@@ -27,6 +27,18 @@
     <ClInclude Include="mismatch.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="find.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="find_end.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="find_first_of.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adjacent_find.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -42,6 +54,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mismatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="find.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="find_end.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="find_first_of.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adjacent_find.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

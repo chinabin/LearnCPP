@@ -2,6 +2,10 @@
 #include "for_each.h"
 #include "count.h"
 #include "mismatch.h"
+#include "find.h"
+#include "find_end.h"
+#include "find_first_of.h"
+#include "adjacent_find.h"
 
 int main()
 {
@@ -9,6 +13,10 @@ int main()
 	FOR_EACH::test_all();
 	COUNT::test_all();
 	MISMATCH::test_all();
+	FIND::test_all();
+	FIND_END::test_all();
+	FIND_FIRST_OF::test_all();
+	ADJACENT_FIND::test_all();
 
 	return 0;
 }
