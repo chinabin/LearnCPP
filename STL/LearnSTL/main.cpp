@@ -6,6 +6,8 @@
 #include "find_end.h"
 #include "find_first_of.h"
 #include "adjacent_find.h"
+#include "search.h"
+#include "search_n.h"
 
 int main()
 {
@@ -17,6 +19,8 @@ int main()
 	FIND_END::test_all();
 	FIND_FIRST_OF::test_all();
 	ADJACENT_FIND::test_all();
+	SEARCH::test_all();
+	SEARCH_N::test_all();
 
 	return 0;
 }

@@ -86,6 +86,8 @@
     <ClInclude Include="find_first_of.h" />
     <ClInclude Include="for_each.h" />
     <ClInclude Include="mismatch.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="search_n.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adjacent_find.cpp" />
@@ -97,6 +99,8 @@
     <ClCompile Include="for_each.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mismatch.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="search_n.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
