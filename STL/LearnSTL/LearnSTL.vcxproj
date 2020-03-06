@@ -80,6 +80,9 @@
   <ItemGroup>
     <ClInclude Include="adjacent_find.h" />
     <ClInclude Include="all_any_none_of.h" />
+    <ClInclude Include="copy.h" />
+    <ClInclude Include="copy_backward.h" />
+    <ClInclude Include="copy_n.h" />
     <ClInclude Include="count.h" />
     <ClInclude Include="find.h" />
     <ClInclude Include="find_end.h" />
@@ -92,6 +95,9 @@
   <ItemGroup>
     <ClCompile Include="adjacent_find.cpp" />
     <ClCompile Include="all_any_none_of.cpp" />
+    <ClCompile Include="copy.cpp" />
+    <ClCompile Include="copy_backward.cpp" />
+    <ClCompile Include="copy_n.cpp" />
     <ClCompile Include="count.cpp" />
     <ClCompile Include="find.cpp" />
     <ClCompile Include="find_end.cpp" />

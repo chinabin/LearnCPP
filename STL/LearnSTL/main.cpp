@@ -8,6 +8,9 @@
 #include "adjacent_find.h"
 #include "search.h"
 #include "search_n.h"
+#include "copy.h"
+#include "copy_n.h"
+#include "copy_backward.h"
 
 int main()
 {
@@ -21,6 +24,9 @@ int main()
 	ADJACENT_FIND::test_all();
 	SEARCH::test_all();
 	SEARCH_N::test_all();
+	COPY::test_all();
+	COPY_N::test_all();
+	COPY_BACKWARD::test_all();
 
 	return 0;
 }

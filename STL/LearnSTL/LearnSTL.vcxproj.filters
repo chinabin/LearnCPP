@@ -45,6 +45,15 @@
     <ClInclude Include="search_n.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_backward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -78,6 +87,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="search_n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_backward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_n.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
