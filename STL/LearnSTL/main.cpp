@@ -11,6 +11,13 @@
 #include "copy.h"
 #include "copy_n.h"
 #include "copy_backward.h"
+#include "move.h"
+#include "move_backward.h"
+#include "fill.h"
+#include "fill_n.h"
+#include "transform.h"
+#include "generate.h"
+#include "generate_n.h"
 
 int main()
 {
@@ -27,6 +34,13 @@ int main()
 	COPY::test_all();
 	COPY_N::test_all();
 	COPY_BACKWARD::test_all();
+	MOVE::test_all();
+	MOVE_BACKWARD::test_all();
+	FILL::test_all();
+	FILL_N::test_all();
+	TRANSFORM::test_all();
+	GENERATE::test_all();
+	GENERATE_N::test_all();
 
 	return 0;
 }

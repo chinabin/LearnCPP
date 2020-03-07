@@ -84,13 +84,20 @@
     <ClInclude Include="copy_backward.h" />
     <ClInclude Include="copy_n.h" />
     <ClInclude Include="count.h" />
+    <ClInclude Include="fill.h" />
+    <ClInclude Include="fill_n.h" />
     <ClInclude Include="find.h" />
     <ClInclude Include="find_end.h" />
     <ClInclude Include="find_first_of.h" />
     <ClInclude Include="for_each.h" />
+    <ClInclude Include="generate.h" />
+    <ClInclude Include="generate_n.h" />
     <ClInclude Include="mismatch.h" />
+    <ClInclude Include="move.h" />
+    <ClInclude Include="move_backward.h" />
     <ClInclude Include="search.h" />
     <ClInclude Include="search_n.h" />
+    <ClInclude Include="transform.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adjacent_find.cpp" />
@@ -99,14 +106,21 @@
     <ClCompile Include="copy_backward.cpp" />
     <ClCompile Include="copy_n.cpp" />
     <ClCompile Include="count.cpp" />
+    <ClCompile Include="fill.cpp" />
+    <ClCompile Include="fill_n.cpp" />
     <ClCompile Include="find.cpp" />
     <ClCompile Include="find_end.cpp" />
     <ClCompile Include="find_first_of.cpp" />
     <ClCompile Include="for_each.cpp" />
+    <ClCompile Include="generate.cpp" />
+    <ClCompile Include="generate_n.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mismatch.cpp" />
+    <ClCompile Include="move.cpp" />
+    <ClCompile Include="move_backward.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="search_n.cpp" />
+    <ClCompile Include="transform.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

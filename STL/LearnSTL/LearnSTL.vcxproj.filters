@@ -54,6 +54,27 @@
     <ClInclude Include="copy_n.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="move.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fill_n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generate_n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="move_backward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -96,6 +117,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="copy_n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fill_n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="move_backward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
