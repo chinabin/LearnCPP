@@ -17,6 +17,11 @@ namespace FILL{
 	
 	void test_fill()
 	{
-	
+		vector<int> A(5);
+		fill(A.begin(), A.end(), 2);
+		for_each(A.begin(), A.end(), [](int a){
+			cout << a << " ";
+		});
+		cout << endl;
 	}
 }

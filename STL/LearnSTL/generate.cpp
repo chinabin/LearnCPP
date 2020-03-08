@@ -17,6 +17,13 @@ namespace GENERATE{
 	
 	void test_generate()
 	{
-	
+		vector<int> A(12);
+		generate(A.begin(), A.end(), []() -> int{
+			return rand() % 10 + 1;
+		});
+		for_each(A.begin(), A.end(), [](int a){
+			cout << a << " ";
+		});
+		cout << endl;
 	}
 }

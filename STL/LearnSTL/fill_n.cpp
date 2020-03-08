@@ -17,6 +17,16 @@ namespace FILL_N{
 	
 	void test_fill_n()
 	{
-	
+		vector<int> A(10);
+		fill(A.begin(), A.end(), 0);
+		for_each(A.begin(), A.end(), [](int a){
+			cout << a << " ";
+		});
+		cout << endl;
+		fill_n(A.begin(), 6, 2);
+		for_each(A.begin(), A.end(), [](int a){
+			cout << a << " ";
+		});
+		cout << endl;
 	}
 }
