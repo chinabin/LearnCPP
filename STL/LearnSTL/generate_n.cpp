@@ -17,6 +17,18 @@ namespace GENERATE_N{
 	
 	void test_generate_n()
 	{
-	
+		vector<int> A(12);
+		fill(A.begin(), A.end(), 0);
+		for_each(A.begin(), A.end(), [](int a){
+			cout << a << " ";
+		});
+		cout << endl;
+		generate_n(A.begin(), 10, []() -> int{
+			return rand() % 10 + 1;
+		});
+		for_each(A.begin(), A.end(), [](int a){
+			cout << a << " ";
+		});
+		cout << endl;
 	}
 }
