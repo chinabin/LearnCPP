@@ -18,6 +18,20 @@
 #include "transform.h"
 #include "generate.h"
 #include "generate_n.h"
+#include "remove.h"
+#include "remove_copy.h"
+#include "replace.h"
+#include "replace_copy.h"
+#include "swap.h"
+#include "swap_ranges.h"
+#include "iter_swap.h"
+#include "reverse.h"
+#include "reverse_copy.h"
+#include "rotate.h"
+#include "rotate_copy.h"
+#include "random_shuffle.h"
+#include "unique.h"
+#include "unique_copy.h"
 
 int main()
 {
@@ -41,6 +55,20 @@ int main()
 	TRANSFORM::test_all();
 	GENERATE::test_all();
 	GENERATE_N::test_all();
+	REMOVE::test_all();
+	REMOVE_COPY::test_all();
+	REPLACE::test_all();
+	REPLACE_COPY::test_all();
+	SWAP::test_all();
+	SWAP_RANGES::test_all();
+	ITER_SWAP::test_all();
+	REVERSE::test_all();
+	REVERSE_COPY::test_all();
+	ROTATE::test_all();
+	ROTATE_COPY::test_all();
+	RANDOM_SHUFFLE::test_all();
+	UNIQUE::test_all();
+	UNIQUE_COPY::test_all();
 
 	return 0;
 }

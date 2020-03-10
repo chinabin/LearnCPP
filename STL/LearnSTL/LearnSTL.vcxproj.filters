@@ -75,6 +75,48 @@
     <ClInclude Include="transform.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="remove.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iter_swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random_shuffle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="remove_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="replace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="replace_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotate_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="swap_ranges.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unique.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unique_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -138,6 +180,48 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="remove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iter_swap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random_shuffle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="replace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="replace_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotate_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap_ranges.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unique.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unique_copy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
