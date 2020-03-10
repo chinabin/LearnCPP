@@ -32,6 +32,11 @@
 #include "random_shuffle.h"
 #include "unique.h"
 #include "unique_copy.h"
+#include "is_partitioned.h"
+#include "partition.h"
+#include "partition_copy.h"
+#include "stable_partition.h"
+#include "partition_point.h"
 
 int main()
 {
@@ -69,6 +74,11 @@ int main()
 	RANDOM_SHUFFLE::test_all();
 	UNIQUE::test_all();
 	UNIQUE_COPY::test_all();
+	IS_PARTITIONED::test_all();
+	PARTITION::test_all();
+	PARTITION_COPY::test_all();
+	STABLE_PARTITION::test_all();
+	PARTITION_POINT::test_all();
 
 	return 0;
 }

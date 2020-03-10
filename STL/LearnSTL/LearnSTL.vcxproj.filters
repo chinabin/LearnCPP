@@ -117,6 +117,21 @@
     <ClInclude Include="unique_copy.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="is_partitioned.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partition_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partition_point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stable_partition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -222,6 +237,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="unique_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="is_partitioned.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partition_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partition_point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stable_partition.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
