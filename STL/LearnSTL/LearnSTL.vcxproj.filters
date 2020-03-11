@@ -150,6 +150,18 @@
     <ClInclude Include="stable_sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="lower_bound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="equal_range.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="upper_bound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -291,6 +303,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stable_sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lower_bound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="equal_range.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="upper_bound.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

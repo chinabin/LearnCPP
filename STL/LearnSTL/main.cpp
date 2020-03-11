@@ -44,6 +44,10 @@
 #include "partial_sort_copy.h"
 #include "stable_sort.h"
 #include "nth_element.h"
+#include "lower_bound.h"
+#include "upper_bound.h"
+#include "binary_search.h"
+#include "equal_range.h"
 
 int main()
 {
@@ -93,6 +97,10 @@ int main()
 	PARTIAL_SORT_COPY::test_all();
 	STABLE_SORT::test_all();
 	NTH_ELEMENT::test_all();
+	LOWER_BOUND::test_all();
+	UPPER_BOUND::test_all();
+	BINARY_SEARCH::test_all();
+	EQUAL_RANGE::test_all();
 
 	return 0;
 }
