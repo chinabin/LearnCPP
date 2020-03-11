@@ -37,6 +37,13 @@
 #include "partition_copy.h"
 #include "stable_partition.h"
 #include "partition_point.h"
+#include "is_sorted.h"
+#include "is_sorted_until.h"
+#include "sort.h"
+#include "partial_sort.h"
+#include "partial_sort_copy.h"
+#include "stable_sort.h"
+#include "nth_element.h"
 
 int main()
 {
@@ -79,6 +86,13 @@ int main()
 	PARTITION_COPY::test_all();
 	STABLE_PARTITION::test_all();
 	PARTITION_POINT::test_all();
+	IS_SORTED::test_all();
+	IS_SORTED_UNTIL::test_all();
+	SORT::test_all();
+	PARTIAL_SORT::test_all();
+	PARTIAL_SORT_COPY::test_all();
+	STABLE_SORT::test_all();
+	NTH_ELEMENT::test_all();
 
 	return 0;
 }

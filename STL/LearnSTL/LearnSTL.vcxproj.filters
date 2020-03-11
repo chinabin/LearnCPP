@@ -132,6 +132,24 @@
     <ClInclude Include="stable_partition.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="is_sorted.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nth_element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partial_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partial_sort_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stable_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -252,6 +270,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stable_partition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="is_sorted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="is_sorted_until.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nth_element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partial_sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partial_sort_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stable_sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
