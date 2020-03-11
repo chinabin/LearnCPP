@@ -48,6 +48,13 @@
 #include "upper_bound.h"
 #include "binary_search.h"
 #include "equal_range.h"
+#include "merge.h"
+#include "inplace_merge.h"
+#include "includes.h"
+#include "set_difference.h"
+#include "set_intersection.h"
+#include "set_symmetric_difference.h"
+#include "set_union.h"
 
 int main()
 {
@@ -101,6 +108,13 @@ int main()
 	UPPER_BOUND::test_all();
 	BINARY_SEARCH::test_all();
 	EQUAL_RANGE::test_all();
+	MERGE::test_all();
+	INPLACE_MERGE::test_all();
+	INCLUDES::test_all();
+	SET_DIFFERENCE::test_all();
+	SET_INTERSECTION::test_all();
+	SET_SYMMETRIC_DIFFERENCE::test_all();
+	SET_UNION::test_all();
 
 	return 0;
 }

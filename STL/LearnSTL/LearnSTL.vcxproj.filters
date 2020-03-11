@@ -162,6 +162,27 @@
     <ClInclude Include="upper_bound.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inplace_merge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="merge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="set_difference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="set_intersection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="set_symmetric_difference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="set_union.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -315,6 +336,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="upper_bound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="includes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inplace_merge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_difference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_intersection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_symmetric_difference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_union.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
