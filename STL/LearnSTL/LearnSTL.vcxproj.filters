@@ -183,6 +183,42 @@
     <ClInclude Include="set_union.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="is_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="is_heap_until.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="make_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="max.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="max_element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="min.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="min_element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minmax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minmax_element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pop_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="push_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -357,6 +393,42 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="set_union.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="is_heap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="is_heap_until.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="make_heap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="max.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="max_element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="min.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="min_element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minmax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minmax_element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pop_heap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="push_heap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_heap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

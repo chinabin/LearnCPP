@@ -55,6 +55,18 @@
 #include "set_intersection.h"
 #include "set_symmetric_difference.h"
 #include "set_union.h"
+#include "is_heap.h"
+#include "is_heap_until.h"
+#include "make_heap.h"
+#include "push_heap.h"
+#include "pop_heap.h"
+#include "sort_heap.h"
+#include "max.h"
+#include "max_element.h"
+#include "min.h"
+#include "min_element.h"
+#include "minmax.h"
+#include "minmax_element.h"
 
 int main()
 {
@@ -115,6 +127,18 @@ int main()
 	SET_INTERSECTION::test_all();
 	SET_SYMMETRIC_DIFFERENCE::test_all();
 	SET_UNION::test_all();
+	IS_HEAP::test_all();
+	IS_HEAP_UNTIL::test_all();
+	MAKE_HEAP::test_all();
+	PUSH_HEAP::test_all();
+	POP_HEAP::test_all();
+	SORT_HEAP::test_all();
+	MAX::test_all();
+	MAX_ELEMENT::test_all();
+	MIN::test_all();
+	MIN_ELEMENT::test_all();
+	MINMAX::test_all();
+	MINMAX_ELEMENT::test_all();
 
 	return 0;
 }
