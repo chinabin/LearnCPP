@@ -219,6 +219,48 @@
     <ClInclude Include="sort_heap.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="accumulate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adjacent_difference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="equal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iota.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="is_permutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lexicographical_compare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="next_permutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partial_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prev_permutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uninitialized_copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uninitialized_copy_n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uninitialized_fill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uninitialized_fill_n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="all_any_none_of.cpp">
@@ -429,6 +471,48 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="sort_heap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="accumulate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adjacent_difference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="equal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inner_product.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iota.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="is_permutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lexicographical_compare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="next_permutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partial_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prev_permutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uninitialized_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uninitialized_copy_n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uninitialized_fill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uninitialized_fill_n.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -67,6 +67,20 @@
 #include "min_element.h"
 #include "minmax.h"
 #include "minmax_element.h"
+#include "equal.h"
+#include "lexicographical_compare.h"
+#include "is_permutation.h"
+#include "next_permutation.h"
+#include "prev_permutation.h"
+#include "iota.h"
+#include "accumulate.h"
+#include "inner_product.h"
+#include "adjacent_difference.h"
+#include "partial_sum.h"
+#include "uninitialized_copy.h"
+#include "uninitialized_copy_n.h"
+#include "uninitialized_fill.h"
+#include "uninitialized_fill_n.h"
 
 int main()
 {
@@ -139,6 +153,20 @@ int main()
 	MIN_ELEMENT::test_all();
 	MINMAX::test_all();
 	MINMAX_ELEMENT::test_all();
+	EQUAL::test_all();
+	LEXICOGRAPHICAL_COMPARE::test_all();
+	IS_PERMUTATION::test_all();
+	NEXT_PERMUTATION::test_all();
+	PREV_PERMUTATION::test_all();
+	IOTA::test_all();
+	ACCUMULATE::test_all();
+	INNER_PRODUCT::test_all();
+	ADJACENT_DIFFERENCE::test_all();
+	PARTIAL_SUM::test_all();
+	UNINITIALIZED_COPY::test_all();
+	UNINITIALIZED_COPY_N::test_all();
+	UNINITIALIZED_FILL::test_all();
+	UNINITIALIZED_FILL_N::test_all();
 
 	return 0;
 }
