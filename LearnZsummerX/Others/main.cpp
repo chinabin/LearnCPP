@@ -18,7 +18,8 @@ char *readUrl2(char *szUrl, long &bytesReturnedOut, char **headerOut);
 int main()
 {
 	const int bufLen = 1024;
-	char *szUrl = "https://www.baidu.com/";
+	// char *szUrl = "http://www.ruanyifeng.com/blog/2016/08/http.html";
+	char *szUrl = "http://www.yyetss.com/detail-5010.html";
 	long fileSize;
 	char *memBuffer, *headerBuffer;
 	FILE *fp;
@@ -140,7 +141,7 @@ int getHeaderLength(char *content)
 
 char *readUrl2(char *szUrl, long &bytesReturnedOut, char **headerOut)
 {
-	const int bufSize = 512;
+	const int bufSize = 51200;
 	char readBuffer[bufSize], sendBuffer[bufSize], tmpBuffer[bufSize];
 	char *tmpResult = NULL, *result;
 	SOCKET conn;
@@ -153,12 +154,12 @@ char *readUrl2(char *szUrl, long &bytesReturnedOut, char **headerOut)
 	conn = connectToServer((char*)server.c_str(), 80);
 
 	///////////// step 2, send GET request /////////////
-	sprintf(tmpBuffer, "GET %s HTTP/1.0", filepath.c_str());
+	sprintf(tmpBuffer, "GET %s HTTP/1.1", filepath.c_str());
 	strcpy(sendBuffer, tmpBuffer);
 	strcat(sendBuffer, "\r\n");
 	sprintf(tmpBuffer, "Host: %s", server.c_str());
 	strcat(sendBuffer, tmpBuffer);
-	strcat(sendBuffer, "\r\n");
+	strcat(sendBuffer, "\r\nConnection: close\r\n");
 	strcat(sendBuffer, "\r\n");
 	send(conn, sendBuffer, strlen(sendBuffer), 0);
 
@@ -182,7 +183,8 @@ char *readUrl2(char *szUrl, long &bytesReturnedOut, char **headerOut)
 		totalBytesRead += thisReadSize;
 	}
 
-	headerLen = getHeaderLength(tmpResult);
+	// headerLen = getHeaderLength(tmpResult);
+	headerLen = 0;
 	long contenLen = totalBytesRead - headerLen;
 	result = new char[contenLen + 1];
 	memcpy(result, tmpResult + headerLen, contenLen);

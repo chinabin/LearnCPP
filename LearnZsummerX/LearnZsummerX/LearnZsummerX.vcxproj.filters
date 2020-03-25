@@ -33,14 +33,14 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="depends\include\zsummerX\zsummerX.h">
-      <Filter>depends</Filter>
-    </ClInclude>
-    <ClInclude Include="depends\include\log4z\log4z.h">
+    <ClInclude Include="..\depends\include\log4z\log4z.h">
       <Filter>log</Filter>
     </ClInclude>
-    <ClInclude Include="depends\include\proto4z\proto4z.h">
+    <ClInclude Include="..\depends\include\proto4z\proto4z.h">
       <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\depends\include\zsummerX\zsummerX.h">
+      <Filter>depends</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -17,6 +17,17 @@ bool initEnv(int argc, char* argv[]);
 void startServer();
 void startClient();
 
+void MessageResponse(const TcpSessionPtr &  session, const char * begin, unsigned int len)
+{
+	ReadStream rs(begin, len);
+	std::string content;
+	rs >> content;
+	LOGA("------------------------------------------------------------"
+		"recv SessionID = " << session->getSessionID() << ", content = " << content);
+	content += " ==> echo.";
+	SessionManager::getRef().sendSessionData(session->getSessionID(), begin, len);
+}
+
 void sigFun(int sig)
 {
 	SessionManager::getRef().createTimer(1000, std::bind([]() {
@@ -194,13 +205,13 @@ void startClient()
 			SessionManager::getRef().sendSessionData(session->getSessionID(), ws.getStream(), ws.getStreamLen());
 			return;
 		}
-		SessionManager::getRef().createTimer(2000, [session]() {
-			SessionManager::getRef().kickSession(session->getSessionID());
-			//! step 3 stop server
-			SessionManager::getRef().stopAccept();
-			SessionManager::getRef().kickClientSession();
-			SessionManager::getRef().kickConnect();
-			SessionManager::getRef().stop(); });
+		//SessionManager::getRef().createTimer(2000, [session]() {
+		//	SessionManager::getRef().kickSession(session->getSessionID());
+		//	//! step 3 stop server
+		//	SessionManager::getRef().stopAccept();
+		//	SessionManager::getRef().kickClientSession();
+		//	SessionManager::getRef().kickConnect();
+		//	SessionManager::getRef().stop(); });
 
 	};
 
@@ -208,7 +219,7 @@ void startClient()
 	SessionID cID = SessionManager::getRef().addConnecter(g_remoteIP, g_remotePort);
 	SessionManager::getRef().getConnecterOptions(cID)._onReconnectEnd = OnReconnectEnd;
 	SessionManager::getRef().getConnecterOptions(cID)._onSessionLinked = OnSessionLinked;
-	SessionManager::getRef().getConnecterOptions(cID)._onBlockDispatch = OnSessionBlock;
+	SessionManager::getRef().getConnecterOptions(cID)._onBlockDispatch = MessageResponse;
 	SessionManager::getRef().getConnecterOptions(cID)._onSessionPulse = [](TcpSessionPtr session)
 	{
 		LOGI("session pulse");
