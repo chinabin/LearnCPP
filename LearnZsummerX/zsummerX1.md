@@ -1,0 +1,3 @@
+|         | epoll           | iocp           | select           |
+| :-------------: |:-------------:|:-------------:|:-------------:|
+| 文件      | common_impl.h<br>**epoll_impl.h**<br>tcpaccept_impl.h<br>tcpsocket_impl.h<br>udpsocket_impl.h|common_impl.h<br>**iocp_impl.h**<br>tcpaccept_impl.h<br>tcpsocket_impl.h<br>udpsocket_impl.h      |common_impl.h<br>**select_impl.h**<br>tcpaccept_impl.h<br>tcpsocket_impl.h<br>udpsocket_impl.h      |
