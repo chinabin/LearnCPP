@@ -1,0 +1,3 @@
+[submodule "STL/MyTinySTL"]
+	path = STL/MyTinySTL
+	url = https://github.com/Alinshans/MyTinySTL
