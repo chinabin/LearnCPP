@@ -9,11 +9,12 @@ set(CMAKE_VERBOSE_MAKEFILE ON)  # 显示详细的原始编译信息
 # -Wno-deprecated 使用过时的特性时不要给出警告
 # -Werror 把所有警告转换为错误，以在警告发生时中止编译过程
 # -Wno-unused-function 未使用的函数不要给出警告
-SET(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -o0 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function")
+SET(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -o0 -g -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function")
 
 # 给变量 LIB_SRC 设置值
 SET(LIB_SRC
     fatdog/log.cc
+    fatdog/util.cc
     )
 
 # add_library 将目录中的源文件生成链接库
