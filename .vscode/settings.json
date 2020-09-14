@@ -52,7 +52,13 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "cstring": "cpp",
+        "strstream": "cpp",
+        "complex": "cpp",
+        "cfenv": "cpp",
+        "cinttypes": "cpp",
+        "unordered_set": "cpp"
     },
     "cmake.configureOnOpen": true
 }
